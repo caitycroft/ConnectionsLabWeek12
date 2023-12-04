@@ -9,7 +9,7 @@ class Tree {
 
         this.branch[0] = root;
 
-        createBranches();
+        this.createBranches();
 
     }
     show() {
