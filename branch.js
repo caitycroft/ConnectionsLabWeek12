@@ -6,10 +6,6 @@ class Branch {
     this.finished = false;
   }
 
-  // jitter() {
-  //   this.end.x += random(-1, 1);
-  //   this.end.y += random(-1, 1);
-  // }
 
   show() {
     stroke('orange');
