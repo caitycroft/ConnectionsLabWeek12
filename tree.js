@@ -9,7 +9,11 @@ class Tree {
 
         this.branch[0] = root;
 
-        this.createBranches();
+        for (let index = 0; index < 8; index++) {
+            this.createBranches();
+
+        }
+
 
     }
     show() {
